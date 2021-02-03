@@ -74,12 +74,6 @@ def winograd(kernel,input):
 
 np.set_printoptions(threshold=np.inf)
 def test():
-    input=np.array([
-        [0,1,2,3],
-        [4,5,6,7],
-        [8,9,10,11],
-        [12,13,14,15]
-    ])
     HH=1033
     input=np.arange(HH*HH).reshape(HH,HH)
     kernel=np.array([
